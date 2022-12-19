@@ -5,15 +5,51 @@
     <meta content="width=device-width, intital-scale=1"  name="viewport">
 </head>
 
+<div class="header">
+    <h2></h2>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+
+  <script src="scrolltracker.js"></script>
+  
+  <div id = "splash" class="splash">
+    <img src="images/Sub1/Splash.gif">
+</class>
+
+<div id = "dropdown" class="dropdown">
+    <img src="images/dropdownarrow_white.png"> 
+    <br>To Gallery
+</div>
+
+<div id = "backtop" class="backtop">
+    <img src="images/backtoparrow.png"> 
+    <br>Back To Top
+</div>
+     
+    
+    <script>
+        backtop.onclick = function(){
+        let ele = document.getElementById("splash")
+        ele.scrollIntoView({behavior:"smooth"});
+      }
+      </script>
+     
+    
+    <script>
+        dropdown.onclick = function(){
+        let ele = document.getElementById("container")
+        ele.scrollIntoView({behavior:"smooth"});
+      }
+      </script>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,700&display=swap');
     </style>
 <body>
-    
 
-
-    <div class = "container">
+    <div id = "container" class = "container">
         <div class ="item item1">
                 <img src="images/Sub1/ExplodedAxon.png">
         </div>

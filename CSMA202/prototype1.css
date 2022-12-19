@@ -40,28 +40,27 @@ body{
 }
 
 .container{
+    overflow-x: hidden;
     display: flex;
-    flex-direction: row;
-    position:relative;
+    position: relative;
     margin-left: 30%;
-    margin-top: 10%;
-    min-width: 180%;
+    margin-top: 8%;
+    max-width: none;
     align-items: center;
-    overflow-y: auto;
-    overflow-x: auto;
-    column-gap: 0px;
    
 }
 
- ::-webkit-scrollbar {
+/*  ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
- }
+  */
 
 .container>* {
     /* >*= universal selector = apply to everything inside the container */
     background-color: rgb(0, 0, 0);
 }
+
+
 
 .item{
     width:20%;

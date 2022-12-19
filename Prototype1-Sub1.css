@@ -201,6 +201,14 @@ img {
 
 @media screen and (max-width:700px){
 
+    .dropdown{
+        display: none;
+    }
+
+    .backtop{
+        display: none;
+    }
+
     /* Home Button */
     a {
     position:fixed;

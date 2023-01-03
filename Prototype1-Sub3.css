@@ -14,6 +14,7 @@ a {
     /* pushes text onto image */
     width:100%;
     text-align: left;
+    margin-left: -5vh;
     text-decoration: none;
     font-size: 26px;
     font-weight: bold;

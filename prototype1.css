@@ -53,6 +53,10 @@ body{
    
 }
 
+.containermobile{
+    display: none
+}
+
 /*  ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
@@ -89,7 +93,7 @@ img {
         color: white;
         text-align: center;
         align-items: center;
-        margin-top: -5%;
+        margin-top: -10%;
         letter-spacing: 1px;
     }
 
@@ -106,12 +110,17 @@ img {
     .footer {
           letter-spacing: 5px;
     }    
+
     .container{
+        display: none
+    }
+    
+
+    .containermobile{
         display: flex;
         flex-direction: column;
         position:relative;
-        margin-top: 10%;
-        margin-right: 25vw;
+        margin-top: 15%;
         max-width: none;
         align-items: center;
         overflow-y: none;
@@ -131,14 +140,12 @@ img {
         border-radius: 10px;
         padding: 10px;
         cursor: crosshair;
+        width: 85vw;
        }
     
        img:hover {
         opacity: 0.5;
         
     }
-
-    .item3 {
-        width: 44vw;
-    }
 }
+   

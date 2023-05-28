@@ -72,6 +72,17 @@ img {
     border-radius: 20px;
    }
 
+.item5{
+    width: 10%;
+    padding: 15px;
+    
+}
+
+.item0{
+    width: 100%;
+    padding: 15px;
+    
+}
 .item1{
     width: 100%;
     padding: 15px;
@@ -160,6 +171,12 @@ img {
         max-height: 100%;
         border-radius: 20px;
        }
+    
+    .item5{
+        width: 80%;
+        padding: 15px;
+        
+    }
     
     .item1{
         width: 80%;

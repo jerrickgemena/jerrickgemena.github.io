@@ -80,7 +80,7 @@ body{
 /* Home Button */
 a {
     position:fixed;
-    transform: translate(6%, 70%);
+    transform: translate(2%, 70%);
     /* pushes text onto image */
     width:100%;
     text-align: left;

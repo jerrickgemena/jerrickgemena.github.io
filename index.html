@@ -25,6 +25,9 @@
             
             <a href = 'Prototype1-Sub5.html' >
                 <img src="images/axon.png" style="width:45vw;"></a>
+                <!-- <div class="overlay">
+                    <h2>Hover Text</h2>
+                  </div> -->
           
         </div>
 
@@ -32,13 +35,16 @@
             
             <a href = 'Prototype1-Sub0.html' >
                 <img src="images/Sub0/ViewFromSwapMeet.png" style="width:45vw;"></a>
-          
+            
         </div>
 
            <div class ="item item1">
             
             <a href = 'Prototype1-Sub1.html' >
                 <img src="images/view1_11.26.png" style="width:45vw;"></a>
+                <!-- <div class="overlay">
+                    <h2>Hover Text</h2>
+                  </div> -->
           
         </div>
 
@@ -110,9 +116,50 @@
     </div>
 
      <div class= "footer">
-            About | Contact
+        <div class="popup2">
+            About |
+            <span class="popuptext2"> <br> <br> + 5th Year Architecture <br> + This is a gallery <br> + Click thumbnails dummies <br> + Thx for looking
+               <br>
+            </span>
+            <script>
+                // Optional: Close the popup when clicking outside of it
+                window.onclick = function(event) {
+                  if (!event.target.matches('.popup')) {
+                    var popups = document.getElementsByClassName("popuptext");
+                    for (var i = 0; i < popups.length; i++) {
+                      var popup = popups[i];
+                      if (popup.style.visibility === 'visible') {
+                        popup.style.visibility = 'hidden';
+                        popup.style.opacity = 0;
+                      }
+                    }
+                  }
+                }
+              </script>
+          </div>
+            <div class="popup">
+                Contact
+                <span class="popuptext">  <br>  <br> <br>E-mail: <br> jerrick.gemena@woodbury.edu
+                   <br>
+                </span>
+              </div>
      </div>
 
+     <script>
+        // Optional: Close the popup when clicking outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.popup')) {
+            var popups = document.getElementsByClassName("popuptext");
+            for (var i = 0; i < popups.length; i++) {
+              var popup = popups[i];
+              if (popup.style.visibility === 'visible') {
+                popup.style.visibility = 'hidden';
+                popup.style.opacity = 0;
+              }
+            }
+          }
+        }
+      </script>
 </body>
 
 

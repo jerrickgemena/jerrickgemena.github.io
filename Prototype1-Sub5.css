@@ -61,14 +61,15 @@ body{
     height: auto;
     position:absolute;
     width:5%;
-    top: 98%;
+    top: 99.5%;
     left: 85vw;
     align-items: right;
     opacity:80%;
     font-size: 16px;
     line-height: 0;
     white-space: nowrap;
-    color:rgb(27, 27, 27);
+    color:rgb(224, 224, 224);
+    padding-bottom: 50px;
 } 
 
 #backtop:hover{
@@ -167,6 +168,23 @@ img {
     grid-column-end: 3;
     grid-row-start: 5;
 }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    margin-bottom: 20px;
+    opacity:50%;
+    border-radius: 20px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    width: 90%;
+    height: 100%;
+  }
 
 @media screen and (max-width:800px){
 

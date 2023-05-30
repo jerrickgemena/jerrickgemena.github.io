@@ -113,7 +113,22 @@ img {
 
 @media screen and (max-width:800px){
 
-    
+       /* Home Button */
+       a {
+        position:fixed;
+        transform: translate(6%, 120%);
+        /* pushes text onto image */
+        width:100%;
+        text-align: left;
+        margin-left: -5vh;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        color: rgb(92, 92, 92);
+        top: 50px;
+        letter-spacing: 2px;
+        }
+
     .container{
         display: flex;
         flex-direction: column;

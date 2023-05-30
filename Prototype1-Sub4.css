@@ -208,13 +208,13 @@ img {
     /* Home Button */
     a {
     position:fixed;
-    transform: translate(8%, 120%);
+    transform: translate(6%, 120%);
     /* pushes text onto image */
     width:100%;
     margin-left: -5vh;
     text-align: left;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     color: black;
     top: 50px;

@@ -81,7 +81,7 @@ body{
 /* Home Button */
 a {
     position:fixed;
-    transform: translate(2%, 70%);
+    transform: translate(5%, 70%);
     /* pushes text onto image */
     width:100%;
     text-align: left;
@@ -200,12 +200,12 @@ img {
     /* Home Button */
     a {
     position:fixed;
-    transform: translate(-40%, 10%);
+    transform: translate(6%, 10%);
     /* pushes text onto image */
     width:100%;
     text-align: left;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     color: rgb(92, 92, 92);
     top: 50px;
